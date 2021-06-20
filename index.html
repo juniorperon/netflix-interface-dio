@@ -2,9 +2,16 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!-- Responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- Owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>Netflix Clone</title>
 </head>
 <body>
@@ -27,14 +34,47 @@
                 <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro. Assista agora a nova temporada de House of Cards que está imperdível</p>
                 <div class="botoes">
                     <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
                     <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
                 </div>
             </div>
         </div>
     </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/ferry.jpg" alt="ferry" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/flash.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/godzillaxkong.jpg" alt="godzillaxkingkong">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/lucifer.jpg" alt="lucifer">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/lupin.jpg" alt="lupin">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/wandavision.jpg" alt="wandavision">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/fd3c04551c.js"></script>
+    
+    <!-- Owl JS -->
+    <script type="text/javascript" src="js/owl/setup.js"></script>
+    <script type="text/javascript" src="js/owl/jquery.min.js"></script>
+    <script type="text/javascript" src="js/owl/owl.carousel.min.js"></script>
+
 </body>
 </html>
